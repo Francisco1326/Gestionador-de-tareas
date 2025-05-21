@@ -100,7 +100,7 @@ body {
 }
 /* Estilo de fondo para la segunda pestaña (contenedor de organizador) */
 .organizador {
-    background-image: url('imagenes/FONDO\ 2.jpg');
+    background-image: url('FONDO_2.jpg');
     background-size: cover; /* Esto hace que la imagen cubra todo el área */
     background-position: center; /* Centra la imagen */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
