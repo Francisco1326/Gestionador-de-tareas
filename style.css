@@ -1,0 +1,216 @@
+body{
+    background-color: bisque;
+}
+.titulo {
+    color: rgb(150, 136, 107); /* Cambia 'red' por el color que prefieras */
+
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px; /* Puedes ajustar la altura según necesites */
+    background-color: bisque; /* Color de fondo opcional */
+}
+
+header img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Estilos para posicionar el nuevo contenido en la parte superior de la pantalla */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    margin: 0;
+    padding-top: 20px; /* Espacio en la parte superior */
+    font-family: Arial, sans-serif;
+    background-color: bisque;
+}
+
+.titulo {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.contenedor-tablas {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.tabla {
+    width: 250px;
+    background: #c0a78a;
+    color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+}
+
+.tabla h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.tarea {
+    background: #cab7a2;
+    color: whitesmoke;
+    min-height: 100 px;/*Asegura el espacio para las tareas nuevas*/
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.tarea2 {
+    background: #9e8e7c;
+    color: whitesmoke;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.boton-comenzar {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: "Comic Neue", cursive;
+    background-color: #a79b89;
+    color: gainsboro;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.boton-comenzar:hover {
+    background-color: #8d897a;
+}
+/* Estilo de fondo para la segunda pestaña (contenedor de organizador) */
+.organizador {
+    background-image: url('imagenes/FONDO\ 2.jpg');
+    background-size: cover; /* Esto hace que la imagen cubra todo el área */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    height: 100vh; /* Esto asegura que ocupe toda la altura de la ventana */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.contenedor-principal {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+    align-items: flex-start;
+}
+
+.panel-actividades {
+    width: 250px;
+    background-color: #f0e6d2;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+    font-family: "Comic Neue", cursive;
+    color: #4b4033;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.panel-actividades h3 {
+    margin-top: 0;
+    font-size: 18px;
+    color: #7a6c5c;
+}
+
+.panel-actividades ul {
+    list-style: none;
+    padding-left: 0;
+    font-size: 14px;
+}
+
+.panel-actividades li {
+    margin-bottom: 6px;
+}
+
+
+/* Agrega estos estilos al CSS existente */
+.botones {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.subtarea {
+    margin: 5px;
+    padding: 5px;
+    background: #050000;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subtarea.completada {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+.completar-subtarea {
+    background: #1a940ada;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.tarea-contenido {
+    flex-grow: 1;
+}
+
+.lista-tareas {
+    width: 80%;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+.lista-tareas .tarea {
+    background: #cab7a2;
+    color: whitesmoke;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.aviso {
+    background-color: #ecce97;
+    color: #8d0513;
+    border: 1px solid #ecce97;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.aviso strong {
+    font-weight: bold;
+}
+
